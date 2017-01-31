@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5849555F1E39712D004792D2 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5849555E1E39712D004792D2 /* AboutViewController.swift */; };
+		584955691E3BF50F004792D2 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584955681E3BF50F004792D2 /* CustomTableViewCell.swift */; };
+		5849556D1E3BF7A1004792D2 /* HistoryEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5849556C1E3BF7A1004792D2 /* HistoryEventCell.swift */; };
 		58AE73901E3714AF00776D35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AE738F1E3714AF00776D35 /* AppDelegate.swift */; };
 		58AE73921E3714AF00776D35 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AE73911E3714AF00776D35 /* FirstViewController.swift */; };
-		58AE73941E3714AF00776D35 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AE73931E3714AF00776D35 /* SecondViewController.swift */; };
 		58AE73971E3714AF00776D35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AE73951E3714AF00776D35 /* Main.storyboard */; };
 		58AE73991E3714AF00776D35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58AE73981E3714AF00776D35 /* Assets.xcassets */; };
 		58AE739C1E3714AF00776D35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AE739A1E3714AF00776D35 /* LaunchScreen.storyboard */; };
+		58D828631E3BFAD4004DB15B /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D828611E3BFAD4004DB15B /* MealTableViewController.swift */; };
+		58D828641E3BFAD4004DB15B /* MealTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58D828621E3BFAD4004DB15B /* MealTableViewController.xib */; };
+		58D828661E3EBBDA004DB15B /* HistoryEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D828651E3EBBDA004DB15B /* HistoryEventViewController.swift */; };
+		58D828681E3EC7D4004DB15B /* funFactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D828671E3EC7D4004DB15B /* funFactsViewController.swift */; };
+		58D8286A1E407883004DB15B /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D828691E407883004DB15B /* CalendarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5849555E1E39712D004792D2 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		584955681E3BF50F004792D2 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		5849556C1E3BF7A1004792D2 /* HistoryEventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryEventCell.swift; sourceTree = "<group>"; };
 		58AE738C1E3714AF00776D35 /* TFI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58AE738F1E3714AF00776D35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58AE73911E3714AF00776D35 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		58AE73931E3714AF00776D35 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		58AE73961E3714AF00776D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58AE73981E3714AF00776D35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58AE739B1E3714AF00776D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58AE739D1E3714AF00776D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58D828611E3BFAD4004DB15B /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		58D828621E3BFAD4004DB15B /* MealTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MealTableViewController.xib; sourceTree = "<group>"; };
+		58D828651E3EBBDA004DB15B /* HistoryEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryEventViewController.swift; sourceTree = "<group>"; };
+		58D828671E3EC7D4004DB15B /* funFactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = funFactsViewController.swift; sourceTree = "<group>"; };
+		58D828691E407883004DB15B /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +72,15 @@
 			children = (
 				58AE738F1E3714AF00776D35 /* AppDelegate.swift */,
 				58AE73911E3714AF00776D35 /* FirstViewController.swift */,
-				58AE73931E3714AF00776D35 /* SecondViewController.swift */,
+				584955681E3BF50F004792D2 /* CustomTableViewCell.swift */,
 				58AE73951E3714AF00776D35 /* Main.storyboard */,
+				58D828691E407883004DB15B /* CalendarViewController.swift */,
+				58D828671E3EC7D4004DB15B /* funFactsViewController.swift */,
+				58D828611E3BFAD4004DB15B /* MealTableViewController.swift */,
+				58D828621E3BFAD4004DB15B /* MealTableViewController.xib */,
+				5849556C1E3BF7A1004792D2 /* HistoryEventCell.swift */,
+				58D828651E3EBBDA004DB15B /* HistoryEventViewController.swift */,
+				5849555E1E39712D004792D2 /* AboutViewController.swift */,
 				58AE73981E3714AF00776D35 /* Assets.xcassets */,
 				58AE739A1E3714AF00776D35 /* LaunchScreen.storyboard */,
 				58AE739D1E3714AF00776D35 /* Info.plist */,
@@ -99,6 +120,7 @@
 				TargetAttributes = {
 					58AE738B1E3714AF00776D35 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9V2GWD5AH8;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -128,6 +150,7 @@
 			files = (
 				58AE739C1E3714AF00776D35 /* LaunchScreen.storyboard in Resources */,
 				58AE73991E3714AF00776D35 /* Assets.xcassets in Resources */,
+				58D828641E3BFAD4004DB15B /* MealTableViewController.xib in Resources */,
 				58AE73971E3714AF00776D35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +162,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58AE73941E3714AF00776D35 /* SecondViewController.swift in Sources */,
+				584955691E3BF50F004792D2 /* CustomTableViewCell.swift in Sources */,
 				58AE73901E3714AF00776D35 /* AppDelegate.swift in Sources */,
+				5849556D1E3BF7A1004792D2 /* HistoryEventCell.swift in Sources */,
+				58D828661E3EBBDA004DB15B /* HistoryEventViewController.swift in Sources */,
+				5849555F1E39712D004792D2 /* AboutViewController.swift in Sources */,
+				58D828631E3BFAD4004DB15B /* MealTableViewController.swift in Sources */,
+				58D8286A1E407883004DB15B /* CalendarViewController.swift in Sources */,
+				58D828681E3EC7D4004DB15B /* funFactsViewController.swift in Sources */,
 				58AE73921E3714AF00776D35 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +291,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9V2GWD5AH8;
 				INFOPLIST_FILE = TFI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gabmech.TFI;
@@ -274,6 +305,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9V2GWD5AH8;
 				INFOPLIST_FILE = TFI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gabmech.TFI;
@@ -301,6 +334,7 @@
 				58AE73A21E3714AF00776D35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
